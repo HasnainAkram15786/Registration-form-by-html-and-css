@@ -1,0 +1,31 @@
+#container {
+    width: 1000px;
+    height: 650px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#firstDiv {
+    width: 300px;
+    height: 200px;
+    border: 3px solid blue;
+    position: relative;
+    left: 300px;
+}
+
+#secondDiv {
+    width: 30px;
+    height: 20px;
+    border: 3px solid green;
+    position: fixed;
+    top: 50;
+    right: 0;
+}
+
+#thirdDiv {
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+    position: absolute;
+    top: 100px;
+}
